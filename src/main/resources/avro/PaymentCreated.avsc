@@ -1,0 +1,15 @@
+{
+  "type": "record",
+  "name": "PaymentCreatedEvent",
+  "namespace": "dev.jhonis.ecommerce.payment.event",
+  "fields": [
+    {
+      "name": "checkoutCode",
+      "type": ["string"]
+    },
+    {
+      "name": "paymentCode",
+      "type": ["string"]
+    }
+  ]
+}
